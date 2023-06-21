@@ -1,5 +1,62 @@
+@charset "UTF-8";
 
 /*
 verder: #49a09d
 lilas: #5f2c82 
 */
+
+* { 
+    font-family: system-ui, '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif; 
+    padding: 0px; 
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #5f2c82;
+}
+
+body{
+    background: url("../imagem/fundo1.jpg") no-repeat;
+    background-size: cover;
+}
+
+main { 
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#login {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    overflow: hidden;
+    /*overflow: hidden; serve para ocultar tudo pra fora da borda*/
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#imagem {
+    display: block;
+    height: 200px;
+    background: url("../imagem/fundo2.jpg")no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#formulario {
+    padding: 10px;
+    display: block;
+}
+
+
