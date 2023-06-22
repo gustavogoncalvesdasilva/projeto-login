@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*
+typical device breakpoints 2023 w3c
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080.
+*/
+
+/*
+c1: #F205E2
+c2: #6805F2
+c3: #020659
+c4: #0583F2
+c5: #05AFF2
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        background-image: linear-gradient(to bottom, var(--c1), var(--c2), var(--c3), var(--c4), var(--c5));
+    }
+
+    #login {width: 75vw;
+        height: ;
+    
+    }
+
+    #imagem {
+        float:left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    body {
+        background-image: linear-gradient(to bottom, var(--c1), var(--c2), var(--c3), var(--c4), var(--c5));
+    }
+
+    #login {width: 950px;
+        height: 300px;
+    
+    }
+
+    #imagem {
+        float:left;
+        width: 50%;
+        height: 100%;
+    }
+    
+    #formulario {
+        float: right;
+        width: 50%;
+    }
+
+
+    
+}

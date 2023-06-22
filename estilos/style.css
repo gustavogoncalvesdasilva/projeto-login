@@ -12,6 +12,14 @@ lilas: #5f2c82
     box-sizing: border-box;
 }
 
+:root {
+    --c1: #F205E2;
+    --c2: #6805F2;
+    --c3: #020659;
+    --c4: #0583F2;
+    --c5: #05AFF2;
+}
+
 html, body {
     width: 100vw;
     height: 100vh;
@@ -42,6 +50,9 @@ main {
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    transition: 0.5s;
+    transition-timing-function: ease;
 
 }
 
