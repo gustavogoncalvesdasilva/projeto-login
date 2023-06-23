@@ -26,10 +26,7 @@ c5: #05AFF2
         background-image: linear-gradient(to bottom, var(--c1), var(--c2), var(--c3), var(--c4), var(--c5));
     }
 
-    #login {width: 75vw;
-        height: ;
-    
-    }
+    #login {width: 75vw;}
 
     #imagem {
         float:left;
@@ -64,5 +61,4 @@ c5: #05AFF2
         float: right;
         width: 50%;
     }
-
 }
