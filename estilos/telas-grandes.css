@@ -26,7 +26,10 @@ c5: #05AFF2
         background-image: linear-gradient(to bottom, var(--c1), var(--c2), var(--c3), var(--c4), var(--c5));
     }
 
-    #login {width: 75vw;}
+    #login {
+        width: 75vw;
+        height: 50vh;
+    }
 
     #imagem {
         float:left;
@@ -37,6 +40,10 @@ c5: #05AFF2
     #formulario {
         float: right;
         width: 70%;
+    }
+
+    h1 { 
+        font-size: 1.8em;
     }
 }
 
@@ -60,5 +67,9 @@ c5: #05AFF2
     #formulario {
         float: right;
         width: 50%;
+    }
+
+    h1 {
+        font-size: 2.2em;
     }
 }
