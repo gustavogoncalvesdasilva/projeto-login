@@ -11,6 +11,7 @@ lilas: #5f2c82
     margin: 0px;
     box-sizing: border-box;
 }
+::-webkit-scrollbar { width: 0px; height: 0px; }
 
 :root {
     --c1: #F205E2;
@@ -103,7 +104,7 @@ main {
     transform: translateY(-8.5px);
 }
 
-.ls input:focus-within {}
+/* .ls input:focus-within {} (serve para dixar as areas de campo com foco */
 
 .ls label {
     display: none;
