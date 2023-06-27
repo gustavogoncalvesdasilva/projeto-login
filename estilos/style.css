@@ -77,7 +77,7 @@ main {
 
 .ls {
     width: 95%;
-    height: 35px;
+    height: 40px;
     margin: 10px 0px;
     border: var(--c5);
     box-shadow: inset 0px 0px 7px var(--c3);
@@ -85,15 +85,24 @@ main {
 }
 
 .ls span {
-    padding-left:5px;
     color: var(--c2);
+    font-size: 2em;
+    width: 35px;
+    padding: 3px;
 }
 
-.ls .daq {
-    width: 80%;
-text-align: center;
-    
+.ls input {
+    text-align: center;
+    font-size: 1em;
+    transform: translateY(-8.5px);
+    width: calc(100% - 40px);
+    height: 90%;
+    border-radius: 10px;
+    border: white;
+    box-shadow: inset 0px 0px 7px var(--c3);
 }
+
+.ls input:focus-within {}
 
 .ls label {
     display: none;
